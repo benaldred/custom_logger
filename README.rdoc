@@ -1,0 +1,12 @@
+==A Custom Logger
+
+A library file that extends the buffered logger in rails. It adds a trace method which will output a coloured message (yellow) to the log.
+
+==Install
+
+place in lib file in your rails project then require in which ever environment you want.
++require 'custom_logger'+ I would recommend only using it in development!
+
+Requires the 'colored' gem
+
+Only tested on rails 2.0.2
